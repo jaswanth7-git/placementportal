@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Montserrat-medium;
+    src: url("Montserrat-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url("Montserrat-Bold.ttf");
+}
+
+.side_col {
+    background-color: #696747;
+    top: 70px;
+    height: 100%;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    width: 182px;
+}
+
+.userlogin {
+    background-color: #696747;
+    top: 10px;
+    height: 100%;
+    width: 100%;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.attendence {
+    background-color: #ffffff;
+    color: #696747;
+    font-size: 1.25rem;
+    height: 110%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    top: -50px;
+}
+
+.menuicon {
+    display: none;
+}
+
+.my-nav {
+    font-size: 18px;
+    font-family: Montserrat-bold;
+}
+
+marquee {
+    border: 3px solid #999663;
+    width: 210px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 150px;
+    margin-top: 0px;
+    font-family: Montserrat-medium;
+}
+
+.scoreitem {
+    color: #696747;
+    font-family: Montserrat-medium;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#scorehead {
+    color: #696747;
+    font-family: Montserrat-medium;
+    font-size: 25px;
+    text-align: center;
+    padding: 0%;
+}
+
+.scorecard {
+    background-color: #ffffff;
+    top: 50px;
+    width: 205px;
+    height: 100%;
+    font-size: 1.125rem;
+    color: #696747;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.my-item {
+    color: white;
+    font-family: Montserrat-medium;
+    border: 1px solid white;
+    height: 100%;
+}
+
+#curve_chart1 {
+    width: 400px;
+    height: 300px
+}
+
+#curve_chart2 {
+    width: 400px;
+    height: 300px
+}
+
+@media only screen and (max-width:700px) {
+    .menuicon {
+        display: inline;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 10px;
+        top: 10px;
+    }
+    #menuList {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .side_col {
+        position: absolute;
+        top: 110px;
+        max-width: 182px;
+        left: -10px;
+        z-index: 10;
+    }
+    #curve_chart1 {
+        width: 350px;
+        height: 250px;
+    }
+    #curve_chart2 {
+        width: 350px;
+        height: 250px;
+        margin-left: 15px;
+    }
+    .attendence {
+        position: absolute;
+        top: 170px;
+    }
+    marquee {
+        width: 250px;
+    }
+}

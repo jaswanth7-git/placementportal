@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Montserrat-medium;
+    src: url("Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url("Montserrat-Bold.ttf");
+}
+
+.sandy {
+    font-family: Montserrat-medium;
+    font-size: 18px;
+    background-color: #999663;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.sandy:hover {
+    background-color: #3e8e41;
+}
+
+table {
+    font-family: Montserrat-medium;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    background-color: #999663;
+    color: #ffffff;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #C4C4C4;
+}
+
+.mytable {
+    margin-left: 200px;
+}
+
+.thead {
+    font-size: 20px;
+}
+
+.side_col {
+    background-color: #696747;
+    top: 30px;
+    height: 100%;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.userlogin {
+    background-color: #696747;
+    top: 10px;
+    height: 100%;
+    width: 100%;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.menuicon {
+    display: none;
+}
+
+.my-nav {
+    font-size: 18px;
+    font-family: Montserrat-bold;
+}
+
+marquee {
+    border: 3px solid #999663;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 150px;
+    margin-top: 0px;
+    font-family: Montserrat-medium;
+}
+
+.my-item {
+    color: white;
+    font-family: Montserrat-medium;
+    border: 1px solid white;
+    height: 100%;
+}
+
+@media only screen and (max-width:700px) {
+    .menuicon {
+        display: inline;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 10px;
+        top: 10px;
+    }
+    #menuList {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .side_col {
+        position: absolute;
+        top: 110px;
+        max-width: 182px;
+        left: -80px;
+        z-index: 10;
+    }
+    table {
+        font-family: Montserrat-medium;
+        border-collapse: collapse;
+        width: 300px;
+    }
+    th {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    td {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+}
